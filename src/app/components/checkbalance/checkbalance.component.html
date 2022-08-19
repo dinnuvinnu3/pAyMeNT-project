@@ -1,0 +1,30 @@
+<mat-card class="check-balance-card">
+    <mat-card-title>
+        User id
+    </mat-card-title>
+    <mat-card-content>
+        <mat-form-field class="full-width">
+            <mat-label>id</mat-label>
+                <input
+                [(ngModel)]="customerId"
+                name="customerId"
+                required type='text' matInput/>
+             </mat-form-field>
+    </mat-card-content>
+    <mat-card-actions allign="end">
+        <button mat-raised-button class="primary1" (click)=getAllDetails()>Check</button>
+
+        <div>
+            <h4 id="msg" style="display: none;">
+                Customer ID does not exist!
+            </h4>
+        </div>
+        <div>
+            <h4 id="msg1" style="display: none;">
+                Fill all the above details
+            </h4>
+        </div>
+        <h2 id="sal" style="display: none;">{{ this.senders }}</h2>
+    </mat-card-actions>
+    </mat-card>
+

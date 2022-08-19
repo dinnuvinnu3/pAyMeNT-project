@@ -1,0 +1,58 @@
+
+
+<h1 mat-dialog-title>Process Payment</h1>
+<div mat-dialog-content>
+    <mat-form-field class="full-width" >
+        <mat-label>BIC</mat-label>
+            <input 
+           
+            name="BIC"
+            required
+            type='text' matInput/>
+        
+       </mat-form-field>
+       <mat-form-field class="full-width">
+           <mat-label>name</mat-label>
+               <input
+              
+               name="name"
+               required type='text' matInput/>
+            </mat-form-field>
+
+            <mat-form-field class="full-width" >
+                <mat-label>Bid</mat-label>
+                    <input 
+                   
+                    name="BId"
+                    required
+                    type='text' matInput/>
+                
+               </mat-form-field>
+              <br>
+              <mat-form-field class="full-width" >
+                <mat-label>type</mat-label>
+                    <mat-select placeholder="types">
+                        <mat-option value="">Customer Transfer</mat-option>
+                        <mat-option value="">Bank Transfer</mat-option>
+                    </mat-select>
+                
+               </mat-form-field>
+               <br>
+
+               <mat-form-field class="full-width" >
+                <mat-label>amount</mat-label>
+                    <input 
+                   
+                    name="amount"
+                    required
+                    type='text' matInput/>
+                
+               </mat-form-field>
+               <br>
+               <br>
+               <div class="container text-center">
+                <button type="submit" mat-raised-button color="primary">
+                    submit
+                </button>
+            </div>
+        </div>

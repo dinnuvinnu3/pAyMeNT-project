@@ -1,0 +1,12 @@
+.primary1 {
+  background-color: #232323;
+  left: 40%;
+  color: #ffffff;
+}
+.check-balance-card {
+  position: absolute;
+  top: 30%;
+  width: 70%;
+  left: 15%;
+  background-color: #ff8b3d;
+}
